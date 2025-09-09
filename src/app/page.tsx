@@ -15,9 +15,12 @@ export default function Home() {
 						<Typography weight={700} style={{ letterSpacing: -0.2 }}>Skiff Mail</Typography>
 					</div>
 					<nav className="hidden items-center gap-6 md:flex">
-						<Typography color="secondary">Features</Typography>
-						<Typography color="secondary">Pricing</Typography>
-						<Typography color="secondary">Security</Typography>
+						<a href="/" className="text-gray-600 hover:text-gray-900">Features</a>
+						<a href="/(site)/pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
+						<a href="/(site)/security" className="text-gray-600 hover:text-gray-900">Security</a>
+						<a href="/(site)/mail" className="text-gray-600 hover:text-gray-900">Mail</a>
+						<a href="/(site)/drive" className="text-gray-600 hover:text-gray-900">Drive</a>
+						<a href="/(site)/pages" className="text-gray-600 hover:text-gray-900">Pages</a>
 					</nav>
 					<div className="flex items-center gap-3">
 						<Button type={Type.SECONDARY}>Sign in</Button>
