@@ -17,7 +17,7 @@ const geist = Geist({
 function ThemeBootstrapper() {
 	const { setStoredTheme } = useTheme() as { setStoredTheme: (name: string) => void };
 	useEffect(() => {
-		setStoredTheme("LIGHT");
+		setStoredTheme("DARK");
 	}, [setStoredTheme]);
 	return null;
 }
