@@ -67,6 +67,36 @@ export default function Home() {
 						</Typography>
 					</div>
 				</div>
+
+			{/* Expanded features */}
+			<section className="mx-auto mt-20 w-full max-w-5xl px-6">
+				<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+					<div className="rounded-2xl border border-gray-200 bg-white p-8">
+						<Typography size={Size.XL} weight={700} style={{ color: "#0f172a" }}>Privacy-first by design</Typography>
+						<Typography color="secondary" style={{ marginTop: 10 }}>
+							End-to-end encryption protects your emails, contacts, and settings. No trackers. No ads.
+						</Typography>
+					</div>
+					<div className="rounded-2xl border border-gray-200 bg-white p-8">
+						<Typography size={Size.XL} weight={700} style={{ color: "#0f172a" }}>Seamless collaboration</Typography>
+						<Typography color="secondary" style={{ marginTop: 10 }}>
+							Share securely, schedule with ease, and stay organized with labels and powerful filters.
+						</Typography>
+					</div>
+				</div>
+			</section>
+
+			{/* Footer */}
+			<footer className="mt-24 w-full border-t border-gray-200 bg-white">
+				<div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-10">
+					<Typography color="secondary">© {new Date().getFullYear()} Skiff Mail</Typography>
+					<div className="flex items-center gap-4">
+						<Button type={Type.SECONDARY}>Privacy</Button>
+						<Button type={Type.SECONDARY}>Security</Button>
+						<Button type={Type.SECONDARY}>Docs</Button>
+					</div>
+				</div>
+			</footer>
 			</section>
 		</main>
 	);
