@@ -8,7 +8,7 @@ export default function DrivePage() {
 			<Typography size={Size.XXL} weight={700} style={{ color: "#0f172a" }}>
 				Skiff Drive
 			</Typography>
-			<Typography color="secondary" style={{ marginTop: 10 }}>
+			<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 				Secure cloud storage with end-to-end encryption and effortless sharing.
 			</Typography>
 		</main>

@@ -11,17 +11,17 @@ export default function PricingPage() {
 			<div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
 				<div className="rounded-2xl border border-gray-200 bg-white p-8">
 					<Typography weight={700}>Free</Typography>
-					<Typography color="secondary">Great for getting started</Typography>
+					<Typography style={{ color: "#0f172a" }}>Great for getting started</Typography>
 					<Button type={Type.PRIMARY} style={{ marginTop: 12 }}>Get started</Button>
 				</div>
 				<div className="rounded-2xl border border-gray-200 bg-white p-8">
 					<Typography weight={700}>Pro</Typography>
-					<Typography color="secondary">More storage and features</Typography>
+					<Typography style={{ color: "#0f172a" }}>More storage and features</Typography>
 					<Button type={Type.PRIMARY} style={{ marginTop: 12 }}>Upgrade</Button>
 				</div>
 				<div className="rounded-2xl border border-gray-200 bg-white p-8">
 					<Typography weight={700}>Teams</Typography>
-					<Typography color="secondary">Built for organizations</Typography>
+					<Typography style={{ color: "#0f172a" }}>Built for organizations</Typography>
 					<Button type={Type.PRIMARY} style={{ marginTop: 12 }}>Contact sales</Button>
 				</div>
 			</div>

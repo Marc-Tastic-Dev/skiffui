@@ -8,7 +8,7 @@ export default function PagesPage() {
 			<Typography size={Size.XXL} weight={700} style={{ color: "#0f172a" }}>
 				Skiff Pages
 			</Typography>
-			<Typography color="secondary" style={{ marginTop: 10 }}>
+			<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 				Collaborative, secure docs with real-time editing and sharing.
 			</Typography>
 		</main>

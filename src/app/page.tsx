@@ -15,12 +15,12 @@ export default function Home() {
 						<Typography weight={700} style={{ letterSpacing: -0.2 }}>Skiff Mail</Typography>
 					</div>
 					<nav className="hidden items-center gap-6 md:flex">
-						<a href="/" className="text-gray-600 hover:text-gray-900">Features</a>
-						<a href="/(site)/pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
-						<a href="/(site)/security" className="text-gray-600 hover:text-gray-900">Security</a>
-						<a href="/(site)/mail" className="text-gray-600 hover:text-gray-900">Mail</a>
-						<a href="/(site)/drive" className="text-gray-600 hover:text-gray-900">Drive</a>
-						<a href="/(site)/pages" className="text-gray-600 hover:text-gray-900">Pages</a>
+						<a href="/" className="text-gray-900 hover:text-black">Features</a>
+						<a href="/(site)/pricing" className="text-gray-900 hover:text-black">Pricing</a>
+						<a href="/(site)/security" className="text-gray-900 hover:text-black">Security</a>
+						<a href="/(site)/mail" className="text-gray-900 hover:text-black">Mail</a>
+						<a href="/(site)/drive" className="text-gray-900 hover:text-black">Drive</a>
+						<a href="/(site)/pages" className="text-gray-900 hover:text-black">Pages</a>
 					</nav>
 					<div className="flex items-center gap-3">
 						<Button type={Type.SECONDARY}>Sign in</Button>
@@ -34,7 +34,7 @@ export default function Home() {
 				<Typography size={Size.XXL} weight={600} align="center" style={{ color: "#0f172a" }}>
 					Private, fast, delightful email
 				</Typography>
-				<Typography size={Size.LARGE} color="secondary" align="center" style={{ marginTop: 12, maxWidth: 760 }}>
+				<Typography size={Size.LARGE} align="center" style={{ marginTop: 12, maxWidth: 760, color: "#0f172a" }}>
 					Meet your new secure email service. End-to-end encryption, powerful search, and a beautiful UI.
 				</Typography>
 				<div className="mt-8 flex w-full flex-col items-center gap-3 sm:flex-row">
@@ -53,19 +53,19 @@ export default function Home() {
 				<div className="mt-12 grid w-full grid-cols-1 gap-6 sm:grid-cols-3">
 					<div className="rounded-xl border border-gray-200 p-5">
 						<Typography weight={600} style={{ color: "#0f172a" }}>End-to-end encrypted</Typography>
-						<Typography color="secondary" style={{ marginTop: 6 }}>
+						<Typography style={{ marginTop: 6, color: "#0f172a" }}>
 							Your inbox is protected by default — only you can read your mail.
 						</Typography>
 					</div>
 					<div className="rounded-xl border border-gray-200 p-5">
 						<Typography weight={600} style={{ color: "#0f172a" }}>Lightning fast</Typography>
-						<Typography color="secondary" style={{ marginTop: 6 }}>
+						<Typography style={{ marginTop: 6, color: "#0f172a" }}>
 							Designed for speed with instant search and keyboard shortcuts.
 						</Typography>
 					</div>
 					<div className="rounded-xl border border-gray-200 p-5">
 						<Typography weight={600} style={{ color: "#0f172a" }}>Open & portable</Typography>
-						<Typography color="secondary" style={{ marginTop: 6 }}>
+						<Typography style={{ marginTop: 6, color: "#0f172a" }}>
 							Export anytime. Your data is yours.
 						</Typography>
 					</div>
@@ -76,13 +76,13 @@ export default function Home() {
 				<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
 					<div className="rounded-2xl border border-gray-200 bg-white p-8">
 						<Typography size={Size.XL} weight={700} style={{ color: "#0f172a" }}>Privacy-first by design</Typography>
-						<Typography color="secondary" style={{ marginTop: 10 }}>
+						<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 							End-to-end encryption protects your emails, contacts, and settings. No trackers. No ads.
 						</Typography>
 					</div>
 					<div className="rounded-2xl border border-gray-200 bg-white p-8">
 						<Typography size={Size.XL} weight={700} style={{ color: "#0f172a" }}>Seamless collaboration</Typography>
-						<Typography color="secondary" style={{ marginTop: 10 }}>
+						<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 							Share securely, schedule with ease, and stay organized with labels and powerful filters.
 						</Typography>
 					</div>

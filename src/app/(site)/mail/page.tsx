@@ -8,7 +8,7 @@ export default function MailPage() {
 			<Typography size={Size.XXL} weight={700} style={{ color: "#0f172a" }}>
 				Skiff Mail
 			</Typography>
-			<Typography color="secondary" style={{ marginTop: 10 }}>
+			<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 				Privacy-first email with end-to-end encryption, powerful search, and delightful design.
 			</Typography>
 		</main>

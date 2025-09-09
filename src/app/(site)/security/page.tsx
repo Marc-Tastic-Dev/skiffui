@@ -8,7 +8,7 @@ export default function SecurityPage() {
 			<Typography size={Size.XXL} weight={700} style={{ color: "#0f172a" }}>
 				Security
 			</Typography>
-			<Typography color="secondary" style={{ marginTop: 10 }}>
+			<Typography style={{ marginTop: 10, color: "#0f172a" }}>
 				Learn about encryption, keys, and how we keep your data safe.
 			</Typography>
 		</main>
