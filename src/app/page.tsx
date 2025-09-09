@@ -21,6 +21,7 @@ export default function Home() {
 						<a href="/(site)/mail" className="text-gray-200 hover:text-white">Mail</a>
 						<a href="/(site)/drive" className="text-gray-200 hover:text-white">Drive</a>
 						<a href="/(site)/pages" className="text-gray-200 hover:text-white">Pages</a>
+						<a href="/(site)/calendar" className="text-gray-200 hover:text-white">Calendar</a>
 					</nav>
 					<div className="flex items-center gap-3">
 						<Button type={Type.SECONDARY}>Sign in</Button>
